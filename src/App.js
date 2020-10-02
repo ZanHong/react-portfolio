@@ -4,13 +4,13 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import NoMatch from "./pages/NoMatch";
-import Navbar from './components/NavBar';
+import Header from './components/Header';
 
 function App() {
   return (
     <Router>
       <div>
-        <Navbar />
+        <Header />
         <Switch>
           <Route exact path="/">
             <About />
