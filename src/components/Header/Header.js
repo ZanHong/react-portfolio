@@ -1,34 +1,47 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import "./style.css";
+import "./style.css";
 
 function Header() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/">
-        Zan Hong Mok
-      </Link>
-      <div>
-        <ul className="navbar-nav">
-          <li className="nav-item">
+    <nav className="px-md-4 mb-4 align-items-center border-bottom shadow-sm">
+      <div className="container">
+        <div className="row">
+          <div className="mr-md-auto my-md-4 text-center col-md-auto">
+            <Link
+              to="/"
+              className="text-white p-2 text-center col-md-auto"
+              style={{
+                textDecoration: "none"
+              }}
+            >
+              Zan Hong Mok
+          </Link>
+          </div>
+          <div className="col-md-auto"></div>
+          <div className="my-3 my-md-4 pr-0 text-center col-md-auto">
             <Link
               to="/about"
-              className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
+              className="p-2 text-white"
+              style={{
+                textDecoration: "none"
+              }}
             >
               About
             </Link>
-          </li>
-          <li className="nav-item">
             <Link
               to="/projects"
-              className={window.location.pathname === "/projects" ? "nav-link active" : "nav-link"}
+              className="p-2 text-white"
+              style={{
+                textDecoration: "none"
+              }}
             >
               Projects
             </Link>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
-    </nav>
+    </nav >
   );
 }
 
