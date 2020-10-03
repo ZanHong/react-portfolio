@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
 import "./style.css";
 
 function Header() {
   return (
     <nav className="px-md-4 mb-4 align-items-center border-bottom shadow-sm">
-      <div className="container">
-        <div className="row">
-          <div className="mr-md-auto my-md-4 text-center col-md-auto">
+      <Container>
+        <Row>
+          <Col md="auto" className="mr-md-auto my-md-4 text-center">
             <Link
               to="/"
               className="text-white p-2 text-center col-md-auto"
@@ -17,9 +18,9 @@ function Header() {
             >
               Zan Hong Mok
           </Link>
-          </div>
-          <div className="col-md-auto"></div>
-          <div className="my-3 my-md-4 pr-0 text-center col-md-auto">
+          </Col>
+          <Col md="auto"></Col>
+          <Col md="auto" className="my-3 my-md-4 pr-0 text-center">
             <Link
               to="/about"
               className="p-2 text-white"
@@ -38,9 +39,9 @@ function Header() {
             >
               Projects
             </Link>
-          </div>
-        </div>
-      </div>
+          </Col>
+        </Row>
+      </Container>
     </nav >
   );
 }
