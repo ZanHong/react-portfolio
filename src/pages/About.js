@@ -17,6 +17,8 @@ function About() {
     resume: "../images/Zan Hong Mok - Resume .pdf"
   })
 
+  console.log(about);
+
   return (
     <Wrapper>
       <Row>
@@ -28,7 +30,7 @@ function About() {
       <Row>
         <Col md={4}>
           <Image
-            className="float-left mb-3"
+            className="float-left mb-3 h-75"
             src={about.image}
             style={{ maxWidth: "400px" }}
             alt="My Profile Pic"
@@ -69,7 +71,7 @@ function About() {
               <tr>
                 <th scope="row">Resume</th>
                 <td>
-                  <a href={about.resume} target="_blank">Zan Hong Mok - Resume</a>
+                  <a href={about.resume} target="_blank" rel="noopener noreferrer">Zan Hong Mok - Resume</a>
                 </td>
               </tr>
             </tbody>
@@ -77,7 +79,6 @@ function About() {
         </Col>
       </Row>
     </Wrapper>
-
   )
 }
 

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Employee Directory",
+    "deployed": "https://zanhong.github.io/19-employee-directory/",
+    "repo": "https://github.com/ZanHong/19-employee-directory",
+    "image": "../images/employee-directory.PNG"
+  },
+  {
+    "id": 2,
+    "title": "Budget Tracker",
+    "deployed": "https://safe-sands-03074.herokuapp.com/",
+    "repo": "https://github.com/ZanHong/18-budget-tracker",
+    "image": "../images/budget-tracker.PNG"
+  },
+  {
+    "id": 3,
+    "title": "Fitness Tracker",
+    "deployed": "https://agile-cliffs-57091.herokuapp.com/",
+    "repo": "https://github.com/ZanHong/17-fitness-tracker",
+    "image": "../images/fitness-tracker.PNG"
+  },
+  {
+    "id": 4,
+    "title": "Schoolgle",
+    "deployed": "https://schoolgle.herokuapp.com/",
+    "repo": "https://github.com/Andrew836-dev/schoolgle",
+    "image": "../images/schoolgle.PNG"
+  },
+  {
+    "id": 5,
+    "title": "Eat Da Burger!",
+    "deployed": "https://sleepy-hollows-06121.herokuapp.com/",
+    "repo": "https://github.com/ZanHong/13-node-express-handlebars",
+    "image": "../images/burger.PNG"
+  },
+  {
+    "id": 6,
+    "title": "Note Taker",
+    "deployed": "https://damp-scrubland-79078.herokuapp.com/",
+    "repo": "https://github.com/ZanHong/11-note-taker",
+    "image": "../images/note-taker.PNG"
+  }
+]
