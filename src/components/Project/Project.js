@@ -4,7 +4,7 @@ import "./style.css";
 
 function Project(props) {
   return (
-    <Card className="card mb-4 shadow-sm col-xs-6 col-md-4 mx-1">
+    <Card className="card mb-4 shadow-sm col-xs-6 col-md-4 mx-2">
       <a href={props.deployed} target="_blank" rel="noopener noreferrer">
         <img className="card-img-top" src={props.image} alt={props.title} />
       </a>

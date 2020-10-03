@@ -37,7 +37,16 @@ function Header() {
                 textDecoration: "none"
               }}
             >
-              Projects
+              Portfolio
+            </Link>
+            <Link
+              to="/contact"
+              className="p-2 text-white"
+              style={{
+                textDecoration: "none"
+              }}
+            >
+              Contact
             </Link>
           </Col>
         </Row>

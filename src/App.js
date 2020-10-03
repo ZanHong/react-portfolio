@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-import NoMatch from "./pages/NoMatch";
+import Contact from "./pages/Contact";
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 
@@ -22,8 +22,8 @@ function App() {
           <Route exact path="/projects">
             <Projects />
           </Route>
-          <Route>
-            <NoMatch />
+          <Route exact path="/contact">
+            <Contact />
           </Route>
         </Switch>
       </Router>
