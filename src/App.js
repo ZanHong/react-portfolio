@@ -12,20 +12,20 @@ function App() {
     <div>
       <Router>
         <Header />
-        <Switch>
-          <Route exact path="/">
-            <About />
-          </Route>
-          <Route exact path="/about">
-            <About />
-          </Route>
-          <Route exact path="/projects">
-            <Projects />
-          </Route>
-          <Route exact path="/contact">
-            <Contact />
-          </Route>
-        </Switch>
+        {/* <Switch> */}
+        <Route exact path="/">
+          <About />
+        </Route>
+        <Route exact path="/about">
+          <About />
+        </Route>
+        <Route exact path="/projects">
+          <Projects />
+        </Route>
+        <Route exact path="/contact">
+          <Contact />
+        </Route>
+        {/* </Switch> */}
       </Router>
       <Footer />
     </div>
